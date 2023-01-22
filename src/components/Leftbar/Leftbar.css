@@ -7,6 +7,10 @@
     padding: 20px;
     border-radius: 15px;
     margin-right: 50px;
+    height: 500px;
+    box-shadow: 5px 5px 10px rgb(205, 205, 205);
+    position: sticky;
+    top: 80px;
 }
 .left_down>p{
     margin-left: 20px;
@@ -16,4 +20,9 @@
 }
 a{
     color: #0047ab;
+}
+@media screen and (max-width:1024px) {
+    .left_down{
+        display: none;
+    }    
 }

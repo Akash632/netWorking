@@ -7,18 +7,45 @@
     margin-right: 20px;
     text-align: center;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(205, 205, 205);
+    /* position: sticky;
+    top: 80px; */
+}
+.post_search{
+    display: flex;
+    border-style: solid;
+    margin-top: 15px;
+    border-width: 1px;
+    border-color: rgb(216, 216, 217);
+    padding: 5px;
+    border-radius: 15px;
+    width: auto;
 }
 .post_input{
     width: 600px;
     /* margin-left: 10px; */
     height: 35px;
     border-radius: 10px;
-    border-width: 1px;
-    margin-top: 15px;
+    border-width: 0px;
+    /* margin-top: 15px; */
+}
+.post_search>button{
+    background-color: white;
+    border-style: none;
+    color: #0047ab;
+    font-weight: bold;
+}
+.post_search>input:focus{
+    border-width: 0px;
 }
 /* .post_search{
     background-color: red;
 } */
+.add_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .post_container{
     border-style: none;
     margin-left: 20px;
@@ -28,6 +55,9 @@
     background-color: white;
     border-radius: 15px;
     width: 620px;
+    box-shadow: 5px 5px 10px rgb(205, 205, 205);
+    /* position: sticky;
+    top:230px */
 }
 .user_section{
     display: flex;

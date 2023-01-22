@@ -1,12 +1,15 @@
 
 .sidebar{
-    margin-left: 150px;
+    /* margin-left: 150px; */
     border-style: none;
     border-radius: 20px;
     width: 250px;
     text-align: center;
     background-color: white;
     margin-bottom: 5px;
+    box-shadow: 5px 5px 10px rgb(205, 205, 205);
+    position: sticky;
+    top: 80px;
 }
 /* .side_top{
 } */
@@ -30,10 +33,13 @@ view_container>h4{
 .side_down{
     border-style: none;
     width: 220px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     background-color: white;
     border-radius: 20px;
     padding: 15px;
+    box-shadow: 5px 5px 10px rgb(205, 205, 205);
+    position: sticky;
+    top: 450px;
 }
 ul>li{
     list-style-type: unset;
@@ -49,6 +55,10 @@ ul>li{
     font-size: 20px;
     margin-left: 15px;
 }
+/* .side_main_container{
+    position: sticky;
+    top: 10px;
+} */
 @media screen and (max-width:1024px){
     
 }

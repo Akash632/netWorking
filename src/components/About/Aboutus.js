@@ -1,7 +1,8 @@
 import React from 'react';
 import './Aboutus.css';
-
+import { Navigtae, useNavigate } from 'react-router-dom';
 function Aboutus() {
+  const navigatehome =useNavigate();
   return (
     <div className="aboutus_body">
     <div className="about_container">
@@ -14,7 +15,7 @@ function Aboutus() {
             it easy and efficient.</p>
         <p>- Join the amazing community of immense professionals and start helping/benefitting from awesome posts!</p>
         <br/>
-        <a href="App.js" >GO TO HOME</a>
+        <a href='#' onClick={()=>{navigatehome("/home")}}>GO TO HOME</a>
     </div>
     </div>
   );

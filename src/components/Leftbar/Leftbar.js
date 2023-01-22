@@ -3,7 +3,6 @@ import './Leftbar.css';
 
 function Leftbar() {
   return (
-    <div >
       <div className="left_down">
         <p>Pro Tech News</p>
         <ul>
@@ -16,7 +15,6 @@ function Leftbar() {
             <li><a href="https://www.med-technews.com/medtech-insights/medtech-materials-and-assembly-insights/scalable-lab-space-time-to-rethink-the-way-we-support-innova/">Companies strategies</a></li>
             <li><a href="https://www.med-technews.com/news/latest-medtech-news/cancer-research-chair-joins-52-north-health-as-non-executive/">World health</a></li>
         </ul>
-    </div>
     </div>
   );
 }
