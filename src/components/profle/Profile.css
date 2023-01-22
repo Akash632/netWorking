@@ -1,0 +1,40 @@
+.profile_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.profile_container{
+    border-style: none;
+    width: 300px;
+    padding: 70px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(205, 205, 205);
+}
+.input_class{
+    display: flex;
+    margin-top: 30px;
+}
+.input_class>button{
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    background-color: white;
+}
+.input_class>input{
+    width: 300px;
+    height: 45px;
+    /* margin-top: 30px; */
+    border-radius: 5px;
+    border-width: 1px;
+}
+.profile_container>button{
+    margin-top: 45px;
+}
+.input_class>button:hover{
+    background-color: #0047ab;
+    color: white;
+}
